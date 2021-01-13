@@ -1,0 +1,1 @@
+Here, I will be building and adding to my personal website. I plan to display my projects in CS, Music, and anything else I feel like sharing. 
