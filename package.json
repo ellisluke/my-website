@@ -1,0 +1,19 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "Luke's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellisluke/my-website.git"
+  },
+  "author": "Luke Ellis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellisluke/my-website/issues"
+  },
+  "homepage": "https://github.com/ellisluke/my-website#readme"
+}
