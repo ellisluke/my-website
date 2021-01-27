@@ -10,6 +10,7 @@ ibmcloud login -a cloud.ibm.com -r us-south -g Default
 ibmcloud ks cluster config --cluster c08gnvjd0hakn5e3nb10
 kubectl config current-context
 
+HEROKU PUSH CHANGES: git push https://git.heroku.com/ellis-website.git master
 */
 
 const express = require('express');

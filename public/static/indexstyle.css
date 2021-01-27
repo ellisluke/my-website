@@ -3,7 +3,8 @@ body {
 }
 
 #top-bar {
-    max-width: none;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .bar {

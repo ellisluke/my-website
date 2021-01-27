@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("#main-header").hide();
     $("#main-header").slideToggle(1000);
+        
 });
 
 setInterval(()=> {
