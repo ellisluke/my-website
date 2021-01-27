@@ -1,0 +1,12 @@
+body {
+    background: white;
+}
+
+#top-bar {
+    max-width: none;
+}
+
+.bar {
+    text-align: center;
+    
+}
