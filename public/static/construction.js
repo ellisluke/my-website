@@ -4,6 +4,7 @@ $(document).ready(function(){
         
 });
 
+// loading dots
 setInterval(()=> {
     $("#dots").html(setDots());
 }, 1000);
