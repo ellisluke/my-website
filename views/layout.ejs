@@ -4,6 +4,8 @@ White: FFFFFF
 Teal: 75FFE6
 Yellow (accent): E5FF87 
 Red: FF3232
+
+INDEX EJS
 -->
 
 <!DOCTYPE html>
@@ -23,13 +25,17 @@ Red: FF3232
         <div class="" id="top-bar">
             <div id="bar-main" class="one column"></div>
             <div id="tabs">
-                <div class="three columns bar"><p>Home</p></div>
-                <div class="three columns bar"><p>Projects</p></div>
-                <div class="three columns bar"><p>Videos</p></div>
-                <div class="three columns bar"><p>Music</p></div>
+                <a class="three columns bar" href="index"><p>Home</p></a>
+                <a class="three columns bar" href="projects"><p>Projects</p></a>
+                <a class="three columns bar" href="videos"><p>Videos</p></a>
+                <a class="three columns bar" href="music"><p>Music</p></a>
             </div>
         </div>
     </nav>
+    <div id="body-container" class="twelve columns">
+        <%- body %>
+    </div>
+    
     
 </body>
 </html>

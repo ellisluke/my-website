@@ -36,12 +36,14 @@ body {
 }
 /* Individual nav tabs */
 .bar {
+    display: block;
     align-items: center;
     height: 60px;
     background: white;
-    transition: 0.8s;
+    transition: 0.7s;
     text-align: center;
     line-height: 60px;
+    text-decoration: none;
 }
 
 .bar:hover {
